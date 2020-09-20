@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white_bg"
+    tools:context=".before_login.login_retailer">
+
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:layout_marginBottom="100dp"
+        android:contentDescription="@string/todo"
+        android:src="@drawable/icetro_logo" />
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_marginBottom="20dp"
+        android:layout_height="wrap_content">
+
+    <EditText
+        android:id="@+id/lr_et_uid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="retailer@gmail.com"
+        android:inputType="textEmailAddress"
+        android:autofillHints=""
+        android:hint="@string/username"
+        android:textSize="20sp"
+        tools:ignore="TextFields" />
+</com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_marginBottom="20dp"
+        android:layout_height="wrap_content">
+    <EditText
+        android:id="@+id/lr_et_pass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="retailer"
+        android:autofillHints=""
+        android:hint="@string/password"
+        android:inputType="textPassword"
+        android:textSize="20sp"
+        tools:ignore="TextFields" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/login_retailer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/round_yellow_button"
+        android:padding="5dp"
+        android:layout_marginBottom="20dp"
+        android:text="@string/LOGIN"
+        android:textColor="@color/White_text"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/create_new_retailer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:background="@drawable/round_light_yellow_button"
+        android:gravity="center"
+        android:text="@string/create_user"
+        android:textColor="@color/light_grey"
+        android:textSize="16sp"  />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:elevation="20dp"
+        android:id="@+id/login_retailer_layout"
+        android:orientation="vertical" />
+
+
+
+</LinearLayout>

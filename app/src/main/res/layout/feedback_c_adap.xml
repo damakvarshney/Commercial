@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/light_yellow"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:padding="10dp"
+        android:orientation="horizontal"
+        android:layout_weight="13">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:textAlignment="center"
+            android:textColor="@color/text_color"
+            android:layout_weight="3"
+            android:ellipsize="end"
+            android:text="@string/consumer_id"
+            android:id="@+id/fca1"
+            tools:ignore="NestedWeights"
+            android:gravity="center_horizontal" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:textAlignment="center"
+            android:textColor="@color/text_color"
+            android:layout_weight="4"
+            android:text="@string/name"
+            android:id="@+id/fca2"
+            android:gravity="center_horizontal" />
+
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:text="@string/quantities"
+            android:textAlignment="center"
+            android:textColor="@color/text_color"
+            android:textSize="15sp"
+            android:id="@+id/fca3"
+            android:gravity="center_horizontal" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:textAlignment="center"
+            android:textColor="@color/text_color"
+            android:layout_weight="3"
+            android:text="@string/amount"
+            android:id="@+id/fca4"
+            android:gravity="center_horizontal" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

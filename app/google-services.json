@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "142114857266",
+    "firebase_url": "https://commercial-366ca.firebaseio.com",
+    "project_id": "commercial-366ca",
+    "storage_bucket": "commercial-366ca.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:142114857266:android:d11ff5f0ad0844624ff72b",
+        "android_client_info": {
+          "package_name": "com.commercial"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "142114857266-k202bpfcude5jcb0doso9i9qg9qvapv2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC6x7_DaAHgDS3XmwjvpRnaPdFCwWVt8Q4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "142114857266-k202bpfcude5jcb0doso9i9qg9qvapv2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

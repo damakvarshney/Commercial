@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/navigation_your_profile"
+            android:icon="@drawable/your_profile"
+            android:title="@string/your_profile" />
+
+        <item
+            android:id="@+id/navigation_Map"
+            android:icon="@drawable/place_24px"
+            android:title="@string/map" />
+        <item
+            android:id="@+id/navigation_item"
+            android:icon="@drawable/local_dining_24px"
+            android:title="@string/item" />
+        <item
+            android:id="@+id/navigation_gallery"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="@string/GALLERY" />
+
+    </group>
+</menu>

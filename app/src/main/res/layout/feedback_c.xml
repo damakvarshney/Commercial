@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/slide4_bg"
+    android:orientation="vertical"
+    tools:context=".after_login.customer.c_feedback">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            android:background="@color/black" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:padding="5dp"
+            android:text="@string/present_feedback"
+            android:textAllCaps="true"
+            android:textColor="#000"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:background="@color/black" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/ic_baseline_event_note_24"
+            android:background="@drawable/round_light_yellow_button"
+            android:layout_margin="20dp"
+            android:contentDescription="@string/todo" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_weight="4"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/fc1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="10sp"
+                android:layout_weight="1"
+                android:background="@drawable/round_yellow_button"
+                android:text="@string/Date"
+                android:textColor="@color/button_text"
+                android:textSize="20sp"
+                tools:ignore="ButtonStyle,NestedWeights"
+                android:layout_marginRight="10sp" />
+
+            <TextView
+                android:id="@+id/fc2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10sp"
+                android:layout_weight="3"
+                android:text="@string/click_for_date"
+                android:textSize="20sp"
+                tools:ignore="ButtonStyle"
+                android:layout_marginLeft="10sp" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:text="@string/order_ids"
+                android:textColor="#000"
+                android:textSize="20sp"
+                android:layout_marginLeft="20dp" />
+
+            <EditText
+                android:id="@+id/fc3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:autofillHints=""
+                android:hint="@string/enter_the_order_id"
+                android:textSize="20sp"
+                tools:ignore="TextFields"
+                android:layout_marginLeft="20dp" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:text="@string/subjects"
+                android:textColor="#000"
+                android:textSize="20sp"
+                android:layout_marginLeft="20dp" />
+
+            <EditText
+                android:id="@+id/fc4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:autofillHints=""
+                android:hint="@string/enter_the_subject"
+                android:textSize="20sp"
+                tools:ignore="TextFields"
+                android:layout_marginLeft="20dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:text="@string/feedback"
+                android:textColor="#000"
+                android:textSize="20sp"
+                android:layout_marginLeft="20dp" />
+
+            <EditText
+                android:id="@+id/fc5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:autofillHints=""
+                android:hint="@string/feeback"
+                android:textSize="20sp"
+                tools:ignore="TextFields"
+                android:layout_marginLeft="20dp" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/fc6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginTop="15sp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginStart="20dp"
+            android:background="@drawable/round_yellow_button"
+            android:padding="10dp"
+            android:text="@string/send_feedback"
+            android:textColor="@color/button_text"
+            android:textSize="15sp"
+            tools:ignore="RtlHardcoded"
+            android:layout_marginRight="20dp" />
+
+    </LinearLayout>
+</ScrollView>

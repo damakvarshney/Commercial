@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_foradmin">
+
+    <fragment
+        android:id="@+id/navigation_foradmin"
+        android:name="com.commercial.after_login.admin.for_admin"
+        tools:layout="@layout/for_admin" />
+
+    <fragment
+        android:id="@+id/navigation_forretailer"
+        android:name="com.commercial.after_login.retailer.for_retailer"
+        tools:layout="@layout/for_retailer" />
+
+    <fragment
+        android:id="@+id/navigation_forcustomer"
+        android:name="com.commercial.after_login.customer.for_customer"
+        tools:layout="@layout/for_customer" />
+
+    <fragment
+        android:id="@+id/navigation_forvendor"
+        android:name="com.commercial.after_login.vendor.for_vendor"
+        tools:layout="@layout/for_vendor" />
+
+    <fragment
+        android:id="@+id/navigation_Map"
+        android:name="com.commercial.after_login.drawer.map.MapFragment"
+        android:label="Map"
+        tools:layout="@layout/content_explore_map" />
+
+    <fragment
+        android:id="@+id/navigation_item"
+        android:name="com.commercial.after_login.drawer.item.ItemFragment"
+        android:label="Item"
+        tools:layout="@layout/content_explore_item" />
+
+    <fragment
+        android:id="@+id/navigation_gallery"
+        android:name="com.commercial.after_login.drawer.gallery.GalleryFragment"
+        android:label="Galllery"
+        tools:layout="@layout/content_explore_gallery" />
+
+    <fragment
+        android:id="@+id/navigation_your_profile"
+        android:name="com.commercial.after_login.drawer.your_profile.Your_Profile_Fragment"
+        tools:layout="@layout/content_explore_your_profile" />
+
+</navigation>

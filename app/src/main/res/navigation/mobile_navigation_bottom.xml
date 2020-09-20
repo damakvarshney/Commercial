@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_Map">
+
+    <fragment
+        android:id="@+id/navigation_Map"
+        android:name="com.commercial.before_login.bottom.map.MapFragment"
+        android:label="Map"
+        tools:layout="@layout/skip_this_map" />
+
+    <fragment
+        android:id="@+id/navigation_item"
+        android:name="com.commercial.before_login.bottom.item.ItemFragment"
+        android:label="Item"
+        tools:layout="@layout/skip_this_item" />
+
+    <fragment
+        android:id="@+id/navigation_gallery"
+        android:name="com.commercial.before_login.bottom.gallery.GalleryFragment"
+        android:label="Galllery"
+        tools:layout="@layout/skip_this_gallery" />
+
+    <fragment
+        android:id="@+id/navigation_contact_us"
+        android:name="com.commercial.before_login.bottom.contact_us.Contact_Us_Fragment"
+        android:label="Contact Us"
+        tools:layout="@layout/skip_this_contact_us" />
+</navigation>
